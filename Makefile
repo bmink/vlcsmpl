@@ -1,5 +1,6 @@
 P = vlcsmpl
-OBJS = main.o korg_syro_volcasample.o korg_syro_func.o korg_syro_comp.o
+OBJS = main.o samptbl.o \
+	korg_syro_volcasample.o korg_syro_func.o korg_syro_comp.o
 CFLAGS = -g -Wall -Wstrict-prototypes
 LDLIBS = -lb
 
